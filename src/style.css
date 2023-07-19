@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: auto;
+}
 header{
     background-color: #24292e;
     padding: 10px;
@@ -22,4 +25,21 @@ header a:hover{
 ul li{
     display: inline-block;
     list-style: none;
+}
+main{
+    padding: 20px;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    background-color: #24292e;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+   
+    
 }
