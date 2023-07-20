@@ -1,7 +1,12 @@
 import React from "react";
+import '../style.css';
+import Header from "./header";
+import Footer from "./footer";
 export default function Main(){
     return(
+       
         <main>
+             <Header/>
             <h1>break news</h1>
             <p>Lorem ipsum dolor si
                 t amet consectetur adipisicing elit.
@@ -42,6 +47,7 @@ Duis quis elit nisi non officia qui est Lorem ea laboris veniam. Enim reprehende
 
 Voluptate deserunt consequat laborum labore proident nostrud adipisicing sunt aute. Enim irure proident irure dolore reprehenderit pariatur nisi laboris. Minim velit pariatur et ex officia nulla incididunt nostrud est mollit excepteur sit nostrud. Consectetur aute occaecat elit in pariatur minim tempor ipsum consectetur consequat sunt. Fugiat exercitation deserunt magna ex eiusmod.
 </p>
+<Footer/>
         </main>
     )
 }

@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 body{
@@ -27,19 +27,30 @@ ul li{
     list-style: none;
 }
 main{
+    width: 100%;
     padding: 20px;
     height: auto;
     font-family: 'Courier New', Courier, monospace;
 }
+header{
+    width: 100%;
+}
 
 footer{
     background-color: #24292e;
+  
     color: #fff;
     padding: 10px;
     display: flex;
-   
+   height: 100%;
     justify-content: space-around;
     align-items: center;
+    
    
     
+}
+.about{
+    width: 100%;
+    height: 100%;
+  
 }
